@@ -1,0 +1,66 @@
+/* import I */
+
+body {
+  background-color: #FAF7F2;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+
+}
+img {
+  border-radius: 50%;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+}
+.header-container-section {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+} 
+
+input {
+  color: pink;
+
+  border: 1px solid #777777;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+#log-in-btn {
+  padding: 8px 30px;
+  border: 1px solid #777777;
+  border-radius: 9999px;
+  color: #333333;
+  background-color: #ECD0C2;
+}
+
+#sign-up-btn {
+  padding: 8px 30px;
+  border: 1px solid #9C9F52;
+  border-radius: 9999px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
