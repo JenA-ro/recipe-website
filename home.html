@@ -9,20 +9,27 @@
 <body>
   <header>
     <div class="header-container">
-      <a href="#"><img src="images/Restaurant Logo.png" alt="Yum Yum" style="width: 75px; height: 75px;"/></a>
+      <a class="logo" href="#"><img src="images/Restaurant Logo.png" alt="Yum Yum" style="width: 60px; height: 60px;"/></a>
       <nav class="main-nav">
         <ul>
           <a href="#" alt="Recipes"><li>Recipes</li></a>
-          <a href="#" alt="Bookamred"><li>Bookmarked</li></a>
+          <a href="#" alt="Bookmarked"><li>Bookmarked</li></a>
+          <a href="#" alt="About Page"><li>About</li></a>
         </ul>
       </nav>
       <div class="header-container-section">
-        <form>
+        <form class="search-form">
+          <!-- <label for="search">Search recipes by name or ingredient</label> -->
           <input 
             type="text" 
             placeholder="Search recipes by name or ingredient"
             name="search"
             size="40">
+            <button class="search-form-btn" type="submit">
+              <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M11 2c4.968 0 9 4.032 9 9s-4.032 9-9 9s-9-4.032-9-9s4.032-9 9-9m0 16c3.867 0 7-3.133 7-7s-3.133-7-7-7s-7 3.133-7 7s3.133 7 7 7m8.485.071l2.829 2.828l-1.415 1.415l-2.828-2.829z"/>
+              </svg>
+            </button>
         </form>
         <div class="header-buttons">
           <button id="log-in-btn">Log In</button>
