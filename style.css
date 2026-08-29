@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: 0 10%;
 }
 
 .logo {
@@ -42,11 +43,53 @@ a {
 } 
 
 input {
-  color: pink;
+  border: none;
+  background: transparent;
+  outline: none; 
+  padding: 4px;
+  flex-grow: 1; 
+  font-size: 16px;
+}
 
-  border: 1px solid #777777;
-  border-radius: 10px;
-  padding-left: 15px;
+.search-form {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 24px; 
+  padding: 2px 8px;
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 100%;
+}
+
+.search-form:focus-within {
+  border-color:#9C9F52;
+}
+
+.search-form-btn {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.search-icon:hover{
+  color: #333333;
+}
+.search-icon {
+  width: 24px;
+  height: 24px;
+  color: #777777;
+}
+
+
+
+.header-buttons {
+  display: flex;
+  flex-shrink: 0;
+  gap: 4px;
 }
 
 #log-in-btn {
@@ -55,6 +98,7 @@ input {
   border-radius: 9999px;
   color: #333333;
   background-color: #ECD0C2;
+  font-size: 16px;
 }
 
 #sign-up-btn {
@@ -63,4 +107,5 @@ input {
   border-radius: 9999px;
   color: #333333;
   background-color: #FFFFFF;
+  font-size: 16px;
 }
